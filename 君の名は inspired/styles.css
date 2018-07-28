@@ -43,13 +43,16 @@ img{
         grid-template-rows: 5vh 2vh 5vh 10vh 3vh 5vh 8vh 10vh 10vh 3vh 10vh 3vh 17vh 5vh;
     }
     h1{
-        grid-column: 12 / 16;
+        grid-column: 11 / 15;
         grid-row: 7 / 11;
         z-index: 2;
         /*it will reset the margin; rolls it back to before*/
         margin:0;
-        font-size: 5em;
+        font-size: 6em;
         opacity: 1;
+        -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
     }
     
     #jap-title{
